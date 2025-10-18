@@ -8,11 +8,10 @@ int main (int argc, char *argv[]){
 		return 1;
 		}
 		
-	int i = 0;
-	for(i = 0; argv[1][i] != '\0'; i++){
+	int i = 0;	
 		
-		char letter = argv[1][i];
-		
+	for(i = 0; argv[1][i] != '\0'; i++, letter = argv[1][i]){
+				
 		switch(letter){
 			case 'a':
 			case 'A':
